@@ -1,4 +1,10 @@
 import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sakar Bajimaya | Portfolio",
+  description: "Data Engineer & Project Coordinator",
+};
 
 export default function RootLayout({
   children,
